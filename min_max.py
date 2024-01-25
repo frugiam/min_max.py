@@ -5,8 +5,8 @@
 
 print("How many integers would you like to enter?")
 num_integers = int(input())
-min_num = 0
-max_num = 0
+min_num = input()
+max_num = input()
 print("Please enter", num_integers, "integers.")
 for i in range(num_integers):
     num = int(input())
